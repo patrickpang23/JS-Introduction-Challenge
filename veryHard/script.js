@@ -1,6 +1,6 @@
-var a = prompt("Enter First number");
+var a = Number(prompt("Enter First number"));
 var operator = prompt("Choose an operator. +, -, *, or /");
-var b = prompt("Enter Second number");
+var b = Number(prompt("Enter Second number"));
 
 function add(a, b) {
   return (a + b);
